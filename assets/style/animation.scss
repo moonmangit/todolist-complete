@@ -1,0 +1,33 @@
+// top-down
+.topdown-enter-active,
+.topdown-leave-active {
+    transition: all 0.25s;
+}
+
+.topdown-enter,
+.topdown-leave-to {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.topdown-enter-to,
+.topdown-leave {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+// fade
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .25s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave {
+    opacity: 1;
+}
